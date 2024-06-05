@@ -1,0 +1,973 @@
+body {
+    background-color: green;
+    font-family: 'Clash Display', sans-serif;
+}
+
+
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+
+header ul li a {
+font-family: 'Clash Display', sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+text-align: left;
+color: #000000;
+text-decoration: none;
+}
+
+header .container-in {
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: baseline;
+}
+
+header .l-img {
+    width: auto;    
+}
+
+header .l-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header ul {
+    display: flex;
+    gap: 40px;
+    /* text-decoration: none; */
+    list-style: none;
+}
+
+header .right {
+    display: flex;
+    align-items: end;
+    gap: 50px;
+}
+
+
+.button {
+  width: 200px;
+  margin: 50px auto;
+}
+
+.button a {
+  display: block;
+  height: 50px;
+  width: 200px;
+  line-height: 50px;
+  
+  /*TYPE*/
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  background: #000000;
+  
+}
+
+.button a, p {
+    -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+
+
+/*HOVER*/
+.button:hover .bottom {
+  margin: -10px 0 0 10px;
+  line-height: 50px;
+}
+
+.button:hover .top {
+  margin: -80px 0 0 10px;
+  line-height: 30px;
+}
+
+/*ACTIVE*/
+.button a:active {
+background: #00b7ea; /* Old browsers */
+background: -moz-linear-gradient(top,  #00b7ea 36%, #009ec3 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(36%,#00b7ea), color-stop(100%,#009ec3)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #00b7ea 36%,#009ec3 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #00b7ea 36%,#009ec3 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #00b7ea 36%,#009ec3 100%); /* IE10+ */
+background: linear-gradient(top,  #00b7ea 36%,#009ec3 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-9 */
+
+}
+
+.button:active .bottom {
+  margin: -20px 0 0 10px;
+}
+
+.button:active .top {
+  margin: -70px 0 0 10px;
+}
+
+
+.best-financial .container-in {
+    display: flex;
+    align-items: center;
+}
+
+.best-financial .left,.best-financial .right{
+    width: 50%;
+}
+
+.best-financial .left-in{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.best-financial .left-in-top {
+    background-image: url(Img/Group%201000002356.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.best-financial .r-in-img {
+    width: 100%;
+    background-image: url(Img/Group%201000002356.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.best-financial .r-in-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.best-financial .l-i-t-heading h2 {
+font-family: 'Clash Display', sans-serif;
+font-size: 64px;
+font-weight: 700;
+line-height: 64px;
+text-align: left;
+color: #000000;
+text-transform: capitalize;
+}
+
+.best-financial .l-i-t-para p {
+font-family: 'Clash Display', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: #000000;
+}
+
+.best-financial .l-i-t-button-l button {
+width: 180px;
+height: 60px;
+top: 447px;
+left: 175px;
+gap: 0px;
+border: none;
+border-radius: 10px;
+opacity: 0px;
+background-color: #000000;
+}
+
+.best-financial .l-i-t-button-l a{
+font-family: 'Clash Display', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+text-decoration:none;
+color: #FFFFFF;
+}
+
+.l-i-t-button-r button {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    gap: 10px;
+}
+.best-financial .l-i-t-buttons{
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
+
+.best-financial 
+
+best-financial .l-i-t-button-r a{
+font-family: 'Clash Display', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: #000000;
+}
+
+.best-financial .l-i-t-button-r button a {
+
+text-decoration: none;
+}
+
+.best-financial .l-i-t-button-r button a{
+font-family: 'Clash Display', sans-serif;   
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: #000000;
+}
+
+.premium .container-in{
+    display: flex;
+    align-items: center;
+}
+
+.premium .r-i-hp .para p{
+font-family: 'Clash Display', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.16em;
+text-align: left;
+color: #FF5555;
+}
+
+
+
+.premium .heading h3 {
+font-family: 'Clash Display', sans-serif;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+color: #000000;
+}
+
+
+.premium .budgeting-intervals {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.premium .right-in{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.premium .b-i-in-hsix h6 {
+font-family: 'Clash Display', sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+color: #000000;
+}
+
+.premium .b-i-in-p p {
+font-family: 'Clash Display', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: gray;
+}
+
+.premium .left-in-img{
+    width: 100%;
+        background-image: url(Img/Group%201000002356.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.premium .left-in-img img{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.advantages .container-in{
+    display: flex;
+    align-items: center;
+}
+
+.advantages .right-in-img{
+    width: 100%;
+    background-image: url(Img/Group%201000002356.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.advantages .right-in-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.advantages .left{
+    width: 50%;
+}
+
+.advantages .left{
+
+display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+.advantages .left-in {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.advantages .right{
+    width: 50%;
+}
+
+.advantages .left-in-top{
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages .left-in-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.advantages .l-in-top-p p {
+font-family: 'Clash Display', sans-serif;
+font-size: 18px;
+font-weight: 500;
+letter-spacing: 0.16em;
+text-align: left;
+color: #FF5555;
+}
+
+.advantages .l-in-top-h h3 {
+font-family: 'Clash Display', sans-serif;
+font-size: 48px;
+font-weight: 700;
+text-align: left;
+color: #000000;
+}
+
+.l-in-bottom-h {
+    display: flex;
+    align-items: end;
+    gap: 8px;
+}
+
+.advantages .l-in-bottom-h h6 {
+font-family: 'Clash Display', sans-serif;
+font-size: 28px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+color:  #000000;
+}
+
+.l-in-bottom-text p {
+font-family: 'Clash Display', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+max-width: 40ch; 
+text-transform: capitalize;
+color: gray;
+}
+
+
+
+.visa .container-in {
+    display: flex;
+    align-items: center;
+    gap:40px;
+}
+
+.visa .left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+.visa .right {
+    width: 50%;
+}
+.visa .r-i-head{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.visa .r-i-head h3{
+font-family: 'Clash Display', sans-serif;
+font-size: 28px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+color: #000000;
+}
+
+
+.visa .r-i-p p {
+font-family: 'Clash Display', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: gray;
+text-transform: capitalize;
+}
+
+.visa .right-in {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.visa .l-in-img{
+    width: 100%;
+    background-image: url(Img/Group%201000002356.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.visa .l-in-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial .container-in {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial .right-in{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.testimonial .right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.testimonial .left {
+    width: 50%;
+}
+
+.testimonial .r-in-hthree h3{
+font-family: 'Clash Display', sans-serif;
+font-size: 28px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+text-transform: capitalize;
+color:  #000000;
+}
+
+.testimonial .r-in-paragraph p{
+font-family: 'Clash Display', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: gray;
+max-width: 38ch;
+}
+
+.testimonial .r-in-faces{
+    width: 100;
+}
+
+.testimonial .r-in-faces img{
+    width: auto;
+    height: 100;
+    object-fit: cover;
+}
+
+.middle{
+    text-align: center;
+}
+
+.middle .m-p p{
+font-family: 'Clash Display', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.16em;
+text-align: center;
+color: #000000;
+}
+
+.middle .m-h {
+    text-align: -webkit-center;
+}
+
+.middle .m-h h2 {
+font-family: 'Clash Display', sans-serif;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+color: #000000;
+    text-transform: capitalize;
+    max-width: 13ch;
+} 
+
+.testimonial .left-in-img{
+    width: 100%;
+    background-image: url(Img/Group%201000002356.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.testimonial .left-in-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.testimonial .r-in-nick p{
+font-family: 'Clash Display', sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+color: #000000;
+}
+
+.g-c-i-h-p-in {
+    padding: 20px;
+}
+
+.gridss .g-c-i-h-p{
+width: 535px;
+    
+border-radius: 10px;
+height: 200px;
+top: 4038.71px;
+left: 175px;
+gap: 30px;
+opacity: 0px;
+    
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gridss .grid-container-item{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:25px;
+}
+
+.gridss .grid-h h4{
+font-family: 'Clash Display', sans-serif;
+font-size: 28px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+color: #FFFFFF;
+text-transform: capitalize;
+}
+
+.gridss .grid-container-in{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+
+.gridss .grid-p p{
+font-family: 'Clash Display', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+color: #FFFFFF;
+text-transform: capitalize;
+}
+
+
+.black-sec {
+    padding: 10%;
+}
+
+.black-sec .container-in{
+background-color: #000000;
+gap: 0px;
+border-radius: 10px;
+opacity: 0px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+background-image: url(Img/Group%2035905.png);
+background-repeat: no-repeat;
+background-position: bottom;
+background-position-x: left;
+background-size: contain;
+}
+
+
+.black-sec .g-s-h h1 {
+font-family: 'Clash Display', sans-serif;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+
+.black-sec .g-s-p p {
+font-family: 'Clash Display', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+color: #adb5bd;
+max-width: 42ch;
+text-transform: capitalize;
+}
+
+.black-sec .g-s-download button {
+font-family: 'Clash Display', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: #000000;
+}
+
+.black-sec .get-started {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+
+
+footer {
+    overflow: hidden;
+}
+
+.footer {
+	padding: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .container-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+footer .b-in-p p {
+font-family: 'Clash Display', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+text-align: left;
+color: #000000;
+}
+footer .main-ul {
+    display: flex;
+}
+
+.footer-col ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul {
+	list-style: none;
+}
+
+.footer-col {
+	width: 20%;
+	padding: 0 15px;
+}
+
+.footer-col h4 {
+font-family: 'Clash Display', sans-serif;
+font-size: 32px;
+font-weight: 500;
+line-height: 42px;
+text-align: center;
+text-transform: capitalize;
+color: #000000;
+
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .l-img {
+    width: 100%;
+}
+
+footer .l-img img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/*
+li {
+    list-style-type: none
+}
+*/
+
+/*
+.footer-col h4::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #E91E63;
+	width: 50px;
+	height: 2px;
+}
+*/
+
+.footer-col ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+font-family: 'Clash Display', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px;
+text-align: left;
+transition: all 0.3s ease;
+color: #000000;
+}
+
+.footer-col ul li a:hover {
+	color: tomato;
+	padding-left: 7px;
+}
+
+.footer-col .social-links a {
+	color: #FFF;
+	background-color: rgba(255, 255, 255, 0.2);
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 0 10px 10px 0;
+	line-height: 40px;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+	color: #151515;
+	background-color: #FFF;
+}
+
+
+.searchbox-wrap{
+  display     : flex; 
+  width       : 500px;  
+  margin-top  : 8%;
+  margin-left : auto;
+    margin-right: auto;}
+
+  
+  input{
+     text-align: center;
+     padding                          : 30px 0px;
+     font-size                        : 1.1em;
+     
+     -webkit-border-top-left-radius   : 25px;
+     -webkit-border-bottom-left-radius: 25px;
+     -moz-border-radius-topleft       : 25px;
+     -moz-border-radius-bottomleft    : 25px;
+       border-radius: 4px 0px 0px 0px;
+     box-shadow                       : none;
+     border                           : none;
+     box-shadow                       : 2px 4px 6px rgba(0, 0, 0, 0.19);
+
+  }
+  
+ footer button{
+    padding-right                     : 10px;
+    
+    background-color                  : #fff;
+    -webkit-border-top-right-radius   : 25px;
+    -webkit-border-bottom-right-radius: 25px;
+    -moz-border-radius-topright       : 25px;
+    -moz-border-radius-bottomright    : 25px;
+    border-top-right-radius           : 25px;
+    border-bottom-right-radius        : 25px;
+    box-shadow                        : 5px 4px 6px rgba(0, 0, 0, 0.19);
+    border                            : none;
+    cursor                            : pointer; 
+      cursor                            : hand;}
+    
+    span{
+      margin-left     : 35px;
+      padding         : 15px 45px;
+      
+      font-size       : 0.9em;
+      text-transform  : uppercase;
+      font-weight     : 300 ;
+      color           : #fff;
+      background-color: #000000;
+      border-radius: 4px 0px 0px 0px;
+     
+      box-shadow      : 2px 4px 6px rgba(0, 0, 0, 0.19);
+      
+      &:hover{
+        background-color: #d6121f;
+        box-shadow      : 2px 2px 4px rgba(0, 0, 0, 0.19);
+      }
+      
+    }
+  }
+}
+
+
+
+
+
+@media(max-width: 767px) {
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+
+@media(max-width: 574px) {
+	.footer-col {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .best-financial .container-in {
+        flex-direction: column;
+        gap:25px;
+    }
+    
+    header {
+        display: none;
+    }
+    
+    .premium {
+        padding: 10% 0;
+    }
+    .premium .container-in {
+        flex-direction: column;
+    }
+    
+    .advantages{
+        padding: 10% 0;
+    }
+    
+    .advantages .container-in{
+        flex-direction: column;
+    }
+    
+    .visa{
+        padding: 10% 0;
+    }
+    
+    .visa .container-in{
+        flex-direction: column-reverse;
+    }
+    
+    .testimonial{
+        padding: 10% 0;
+    }
+    .testimonial .container-in{
+        flex-direction: column;
+        gap:40px;
+    }
+    
+    .gridss{
+        padding: 10% 0;
+    }
+    .gridss .grid-container-item {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+    .black-sec{
+        padding: 10% 0;
+    }
+    .black-sec .container-in{
+    flex-direction: column;
+    align-items: flex-end;
+    background-size: cover;
+    }
+    
+    .footer-col {
+    width: auto;
+}
+    footer .main-ul {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+    
+    footer .l-img {
+    width: auto;
+}
+    
+    footer .l-img img {
+    width: 100%;
+    object-fit: contain;
+    height: auto;
+}
+    
+    
+}
+
+
+
+
